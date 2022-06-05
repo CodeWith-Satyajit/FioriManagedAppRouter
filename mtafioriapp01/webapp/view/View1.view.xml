@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.mtafiorimanagedapp01.mtafioriapp01.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <List noDataText="Drop list items here" id="list0" items="{/Products}">
+                <items>
+                    <StandardListItem type="Detail" title="{ProductID}" description="{ProductName}" icon="sap-icon://picture" id="item0"/>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
